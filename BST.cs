@@ -13,11 +13,11 @@ namespace praktikum_module_tiga
 	/// <summary>
 	/// Description of BTS.
 	/// </summary>
-	public class BTS
+	public class BST
 	{
 		public Node Root;
 		
-		public BTS()
+		public BST()
 		{
 			this.Root = null;
 		}

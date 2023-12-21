@@ -1,0 +1,6 @@
+D:\praktikum-module-tiga\praktikum-module-tiga\bin\Debug\praktikum-module-tiga.exe.config
+D:\praktikum-module-tiga\praktikum-module-tiga\bin\Debug\praktikum-module-tiga.exe
+D:\praktikum-module-tiga\praktikum-module-tiga\bin\Debug\praktikum-module-tiga.pdb
+D:\praktikum-module-tiga\praktikum-module-tiga\obj\Debug\praktikum-module-tiga.csprojResolveAssemblyReference.cache
+D:\praktikum-module-tiga\praktikum-module-tiga\obj\Debug\praktikum-module-tiga.exe
+D:\praktikum-module-tiga\praktikum-module-tiga\obj\Debug\praktikum-module-tiga.pdb

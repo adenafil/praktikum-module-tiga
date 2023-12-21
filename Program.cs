@@ -18,6 +18,15 @@ namespace praktikum_module_tiga
 			
 			// TODO: Implement Functionality Here
 			
+			BST tes = new BST();
+			tes.add(1);
+			tes.add(2);
+			tes.add(3);
+			
+			Console.WriteLine(tes.Root.Data);
+			Console.WriteLine(tes.Root.RightChild.RightChild.Data);
+			Console.WriteLine(tes.Root.RightChild.Data);
+			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
