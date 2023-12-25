@@ -7,6 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections.Generic;
 
 namespace praktikum_module_tiga
 {
@@ -16,16 +17,27 @@ namespace praktikum_module_tiga
 		{
 			Console.WriteLine("Hello World!");
 			
-			// TODO: Implement Functionality Here
+			BST bst = new BST();
 			
-			BST tes = new BST();
-			tes.add(1);
-			tes.add(2);
-			tes.add(3);
+			string m = Console.ReadLine();
 			
-			Console.WriteLine(tes.Root.Data);
-			Console.WriteLine(tes.Root.RightChild.RightChild.Data);
-			Console.WriteLine(tes.Root.RightChild.Data);
+			for (int i = 0; i < int.Parse(m); i++) {
+				
+				string inputUser = Console.ReadLine();
+				
+				String[] result = inputUser.Split(' ');
+				
+				if (result[0].Equals("I")) bst.add(int.Parse(result[1]));
+				
+				if (result[0].Equals("S")) bst.doS(int.Parse(result[1]));
+				
+				if (result[0].Equals("B")) bst.searchNodeVWithBFS(int.Parse(result[1]));
+				
+				if (result[0].Equals("D")) bst.searchNodeVWithDFS(int.Parse(result[1]));
+				
+			}
+			
+			
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);

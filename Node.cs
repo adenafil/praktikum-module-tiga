@@ -15,11 +15,16 @@ namespace praktikum_module_tiga
 	/// </summary>
 	public class Node
 	{
+		// data untuk menampung data node atau akar
 		public int Data;
-		public Node Parent;
+		
+		// leftChild untuk menampung akar kiri
 		public Node LeftChild;
+		
+		// rightChild untuk menampung akar kanan
 		public Node RightChild;
 		
+		// Constructor Node
 		public Node(int Data)
 		{
 			this.Data = Data;
